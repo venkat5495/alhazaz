@@ -1,0 +1,246 @@
+Project - Okema 22-11-19
+-Admin is not able to add or edit  quantity for product solve this error
+-Allow admin to edit SKU for every product because SKU is internationl id for every product
+-SKU must have unique so add validation in SKU
+-Add localization in deals,offer products,and product listing pages
+-Fix issues in Admin panel like
+    -Product information > user can not set Shipping free.there are validation message even there are button is off
+    -Orders > invoice pdf
+    -logo not display proper.
+    -Report > Order Wise Report ""Sort by Category"" is not working
+    -Dashboard > Total admins products > wrong counter
+
+Project - Okema 20-11-19
+-chnage in javascript file for offer-details page
+-add new compare page to display compare products
+-add addtocart functionality in compare page
+-add search with suggesion functionality in master page
+-add price range filter in product listing page,deals and offer_products page
+
+Project - Okema 19-11-19
+-Complete add to cart functionality in product details page
+-Complete add to wishlist functionality in product details page
+-Complete add to Compare functionality in product details page
+-Create wishlist page to display wishlist item
+-Add remove item from wishlist functionality
+-Complete functionality of add to cart in wish-list page
+-Add share product on social media functionality in wish-list page
+-Add new description of about us page in  live database
+
+Project - Okema 18-11-19
+-show phone detail for both devices
+-redirect login page to register page
+-add route for header menu in home page
+-workign on product detail page
+    -add breadcrumb
+    -add product images with zomming on hover
+    -add product name
+    -add product review
+    -add product rating
+    -add product price and discount price
+    -add product variant like color,quantity,etc
+    -add add to cart,add to wishlist,add to compare button
+    -add css and js file for product share
+    -add images for product share functionality
+    -add product description
+    -add product video
+    -add download to download product pdf
+    -show all review of products and user details
+    -add condition in review so that only valid user can write a valuable review
+    -display related products
+    -display top selling products of current seller
+
+Project - Okema 16-11-19
+-add today's deal product in home page
+-declare GeneralSetting,Policy,FeatureBrand as global variable and also generate cache data
+-make footer page dynamic
+    -add policies in information section
+    -add categories in top-categories section
+    -add contact-details section
+    -add social network
+    -add newsletter for signup
+    -add profile,wishlist and order history section
+-add email,social media icon and bg-color of social media icon for small devices
+-fix edit error in CMS setting (admin panel)
+-create new support policy page
+-create new Return Policy page
+-create new Seller Policy page
+-create new Terms and Condition page
+-create new Privacy Policy page
+-create new About Us page
+-complete functionality of news letter
+
+Project - Okema 15-11-19
+-Add laravel-page-speed packages
+-Solve lavavel page speed package errors
+-use cache file of master page and reduce query
+-chnage in global variable use in master page
+-use global cache in appservice provider file
+-change the font of Okema for the same of Havana for both frontend,backend website and mobile view
+-add product view modal
+-reduce query and increase page speed
+-remove larvael page speed middleware
+-show top selling product in home page
+
+Project - Okema 14-11-19
+-Use laravel cache to fetch data in home page of website
+-Use laravel cache for Helper function
+-Add CategoryComposer for global variable
+-Add BrandComposer for global variable
+-Add CurrencyComposer for global variable
+-Add HomeDefaultCurrencyComposer for global variable
+-Add LanguageComposer for global variable
+-Add rtlComposer for global variable
+-Use vendor_system_activation Cache in filter_products helper function
+-Use system_default_currency_exchange_rate Cache in convert_price,currency_symbol helper function
+-Use home_default_currency Cache in convert_price helper function
+-Use symbol_format Cache in format_price helper function
+-Use flash_deal,flash_deal_product Cache in home_discounted_base_price helper function
+-use global variable for increase website speed and reduce or remove unused query
+-use cache for home page slider and featured product
+
+Project - Okema 13-11-19
+-show feature product in random order
+-Add accesser for name and description attributes in advertBanner Modal for localization
+-show featured products in home page
+-also show discount percentage on top-right side of each products
+-also understand code of helper function like base price and discount base price
+-replace product-details.html with product url
+-remove percentage shown in product
+-remove extra tab-pannel of featured products
+-remove unused comented code's
+-add new Shopping banner in homepage api
+-working on dynamic product view modal
+-initialize select and owlcarousel js in model success function
+-increase web speed by chnaging helper function
+-Add new banner container on home page api
+
+Project - Okema 12-11-19
+-Add localization on banner title and description in home page
+-Add two new field arabic name and arabic description inside (Banner->Advertise Banner) in admin-panel
+-Complete contact-us page and show general details(Address,phone,email etc.)
+-Check issue in resend api(issue from ios side not api side)
+-Remove home slider,banner and category from admin panel
+-Add featured product in home page (Working On it)
+
+Project - Okema 11-11-19
+-add brands menu for both device
+-add popular brands in navbar\brands
+-add feature brands in navbar\brands
+-change in css for brands in navbar
+-add home page slider
+-upload slider for testing
+-change in slider css
+
+Project - Okema 08-11-19
+-create dashboard blade file
+-add logout functionality
+-manage my account before and after login for all devices
+-add search category and understand searching code
+-add cart-area for website view in small deices
+-add search-bar for small devices
+-add currency and language dropdown for small devices"
+
+Project - Okema 07-11-19
+-solve top-rated product filter issue in api's
+-design registration and login page
+-add validation and localization in register and login page
+-make new otp verification page
+-add validation and localization in otp page
+
+Project - Okema 06-11-19
+-add follow parameter in getfavouriteproducts api
+-convert login,wishlist and register page  into blade file
+-solve issue of css overwriting
+-add sweetalert css and javascript
+-complete chnage-languange and chnage-curruency module
+-push all chnages into git and live code
+
+Project - Okema 05-11-19
+- add quantity field in getofferdetailspage api's
+-add assets and create master page of okema
+-separate master page in 3 part header,footer and content
+-replace path of all css,js and images in master page
+-create home page of okema
+-minify css and js of frontend using laravel mix
+
+Project - Okema 04-11-19
+-add icon field in category,sub subcategory and related api's
+-fix issue of stock in Category_wise_product_stock
+-fix isuue of stock in stock_report
+-fix issue of stock in product_wise_report
+-fix searching issue in product_wise_report
+
+Project - Okema 02-11-19
+-add new quantity field in product module
+-in product module quantity field toggle based on color_filed selected or not
+-chnages in all api(category and order) related to product quantity
+
+Project - Okema 01-11-19
+-make new flash-deal and device-register api
+-add dummy-records for testing purpose
+-solve order_id's error in place-order api
+-solve data-type error in getmyorders api
+-add all new routes,controller and view in okema
+-solve all images issue in gethomepage api
+
+Project - Okema 31-10-19
+-add laravel debugbar package
+-remove extra query and reduce admin panel load time
+-solve error and display sku_combination when user edit product information
+-add two min-max quantity field in general settigs
+-make new api for get genearl setting data
+
+Project - Okema 25-10-19
+ -reduce Leverage browser caching in svg images
+ -minify all css of okema using laravel mix
+ -minify all js of okema using laravel mix
+ -remove and reduce unnecessary request of website
+ -add server side validation in sub-catagory and sub-sub-catagory
+
+Project - Okema 24-10-19
+ -test and increase speed of okemasa
+ -add eng and arabic validation in feature_brand  module
+ -add both lang validation in catagory module
+ -if orders already exist in table(feature_brand && catagory ) then swap orders  when user edit orders field in table(feature_brand && catagory )
+
+
+Project - Okema 23-10-19
+ -remove unnecessary beoshop data from database
+ -after removing data,check all admin panel working properly or not
+ -self testing admin panle
+ -remove html validation and add laravel validation in Products-Brand
+ -if orders already exist in table then swap orders of brand when user edit orders field in brand
+
+
+Project - Okema  22-10-19
+-Use Event And Listener in Subcategory module
+-Use Database Que in Okema Project
+-Add confirmation dialogbox When delete Catagory
+-Add index page of Okema
+-Add logo and favicon icon of Okema
+-Change admin login background image
+-Working on home page banner module
+
+
+Project - Okema  21-10-19
+-Make Api of registration and verify account
+-Make api of Resend OTP
+-Check flow of Category module
+-Make Category api in okema project
+-Remove public from URL of Okema
+
+
+//-------------link 23/10/19
+ordercontroller line-197
+
+$last_id = Order::latest('id')->first();
+
+            if (empty($last_id)){
+                $last_id = 1;
+            }else{
+                $last_id = $last_id->id;
+            }
+
+
+            $last_id = 1000 + $last_id;

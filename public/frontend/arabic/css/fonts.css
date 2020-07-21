@@ -1,0 +1,153 @@
+
+@font-face {
+  font-family: 'Malathfont8';
+  src: url('../fonts/8-malathfont.eot'); 
+  src: local('☺'),
+	   url('../fonts/8-malathfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/8-malathfont.woff2') format('woff2'), 
+       url('../fonts/8-malathfont.woff') format('woff'), 
+       url('../fonts/8-malathfont.ttf')  format('truetype'), 
+       url('../fonts/8-malathfont.svg#Malathfont8') format('svg');
+}
+
+@font-face {
+  font-family: 'Malathfont7';
+  src: url('../fonts/7-malathfont.eot');
+  src: local('☺'),
+	   url('../fonts/7-malathfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/7-malathfont.woff2') format('woff2'), 
+       url('../fonts/7-malathfont.woff') format('woff'), 
+       url('../fonts/7-malathfont.ttf')  format('truetype'), 
+       url('../fonts/7-malathfont.svg#Malathfont7') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Malathfont6';
+  src: url('../fonts/6-malathfont.eot'); 
+  src: local('☺'),
+	   url('../fonts/6-malathfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/6-malathfont.woff2') format('woff2'), 
+       url('../fonts/6-malathfont.woff') format('woff'), 
+       url('../fonts/6-malathfont.ttf')  format('truetype'),
+       url('../fonts/6-malathfont.svg#Malathfont6') format('svg'); 
+}
+
+
+
+@font-face {
+  font-family: 'Malathfont4';
+  src: url('../fonts/4-malathfont.eot');
+  src: local('☺'),
+	   url('../fonts/4-malathfont.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/4-malathfont.woff2') format('woff2'),
+       url('../fonts/4-malathfont.woff') format('woff'), 
+       url('../fonts/4-malathfont.ttf')  format('truetype'),
+       url('../fonts/4-malathfont.svg#Malathfont4') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Malathfont3';
+  src: url('../fonts/3-malathfont.eot'); 
+  src: local('☺'),
+	   url('../fonts/3-malathfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/3-malathfont.woff2') format('woff2'), 
+       url('../fonts/3-malathfont.woff') format('woff'), 
+       url('../fonts/3-malathfont.ttf')  format('truetype'),
+       url('../fonts/3-malathfont.svg#Malathfont3') format('svg'); 
+}
+
+@font-face {
+  font-family: 'Malathfont22';
+  src: url('../fonts/22-malathfont.eot'); 
+  src: local('☺'),
+	   url('../fonts/22-malathfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/22-malathfont.woff2') format('woff2'),
+       url('../fonts/22-malathfont.woff') format('woff'),
+       url('../fonts/22-malathfont.ttf')  format('truetype'), 
+       url('../fonts/22-malathfont.svg#Malathfont2') format('svg'); 
+}
+
+
+@font-face {
+  font-family: 'MalathFont';
+  src: url('../fonts/0-malathfont.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/0-malathfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/0-malathfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/0-malathfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/0-malathfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/0-malathfont.svg#Malathfont8') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont5';
+  src: url('../fonts/5-malathfont.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/5-malathfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/5-malathfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/5-malathfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/5-malathfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/5-malathfont.svg#Malathfont5') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont2';
+  src: url('../fonts/2-malathfont.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/2-malathfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/2-malathfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/2-malathfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/2-malathfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/2-malathfont.svg#Malathfont2') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont1';
+  src: url('../fonts/1-malathfont.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/1-malathfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/1-malathfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/1-malathfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/1-malathfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/1-malathfont.svg#Malathfont1') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont10';
+  src: url('../fonts/10-malathfont.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/10-malathfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/10-malathfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/10-malathfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/10-malathfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/10-malathfont.svg#Malathfont5') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont11';
+  src: url('../fonts/11-malathfont-Bold.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/11-malathfont-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/11-malathfont-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/11-malathfont-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/11-malathfont-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/11-malathfont-Bold.svg#Malathfont1') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
+
+@font-face {
+  font-family: 'Malathfont12';
+  src: url('../fonts/11-malathfont-Regular.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+	   url('../fonts/11-malathfont-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/11-malathfont-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/11-malathfont-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/11-malathfont-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/11-malathfont-Regular.svg#Malathfont1') format('svg'); /* Legacy iOS */
+	   font-display: block;
+}
